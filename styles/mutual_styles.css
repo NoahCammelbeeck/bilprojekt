@@ -1,9 +1,14 @@
 body {
-    background-color: #c6c6c6;
+  background-color: rgb(192, 192, 192);
 }
 
-h1 {}
+h1 {
 
-h2 {}
+}
 
-p {}
+h2 {
+}
+
+p {
+    font-size: 16px;
+}
