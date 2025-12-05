@@ -1,17 +1,82 @@
 <!DOCTYPE html>
 <html lang="da">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-
-
-</head>
-
-<body>
-    <h1>Mercedes</h1>
-
-</body>
-
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercedes</title>
+    <link rel="stylesheet" href="/styles/mercedes.css" />
+    <link rel="stylesheet" href="/styles/mutual_styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  </head>
+  <body class="theme-light">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">
+          <img src="imgmercedes/logo1.png" alt="Mercedes logo" class="brand-logo" />
+          <span class="brand-name">Mercedes</span>
+        </a>
+        <nav class="nav">
+          <a href="#">Modeller</a>
+          <a href="#">Historie</a>
+          <a href="#">Galleri</a>
+          <a href="#">Kontakt</a>
+        </nav>
+        <button class="cta">Book prøvetur</button>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1>Elegance. Ydeevne. Innovation.</h1>
+            <p>Udforsk de nyeste Mercedes-modeller og teknologi — skabt til dem der forventer mere.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#">Se modeller</a>
+              <a class="btn btn-outline" href="#">Lær mere</a>
+            </div>
+          </div>
+          <div class="hero-media" aria-hidden="true">
+            <!-- sætte billede af bil / SVG -->
+            <img src="imgmercedes/1740020368791.jpg.avif" alt="Mercedes bil" />
+          </div>
+        </div>
+      </section>
+      <section class="features container" aria-labelledby="features-title">
+        <h2 id="features-title">Højdepunkter</h2>
+        <div class="grid features-grid">
+          <article class="card">
+            <h3>Design</h3>
+            <p>Skulpturel æstetik, aerodynamik og materialer i luksusklasse.</p>
+          </article>
+          <article class="card">
+            <h3>Teknologi</h3>
+            <p>Avanceret førerassistance og multimediesystemer.</p>
+          </article>
+          <article class="card">
+            <h3>Elektrificering</h3>
+            <p>Plug-in og fuldt elektriske varianter med lang rækkevidde.</p>
+          </article>
+        </div>
+      </section>
+      <section class="gallery container" aria-labelledby="gallery-title">
+        <h2 id="gallery-title">Galleri</h2>
+        <div class="grid gallery-grid">
+          <figure class="gallery-item"><img src="imgmercedes/1200x900.webp" alt="Mercedes model 1" /></figure>
+          <figure class="gallery-item"><img src="imgmercedes/1740020368791.jpg.avif" alt="Mercedes model 2" /></figure>
+          <figure class="gallery-item"><img src="imgmercedes/u3371198551_A_photorealistic_image_of_the_Mercedes_G-Klasse_p_113e723d-cedc-4cd2-8fea-ec56a6fee140_3.png" alt="Mercedes model 3" /></figure>
+          <figure class="gallery-item"><img src="imgmercedes/2022-mercedes-benz-eqs-580-edition-one-exterior-front-quarter.jpg" alt="Mercedes model 4" /></figure>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>© <span id="year"></span> Mercedes · Alle rettigheder forbeholdes</div>
+        <nav class="footer-nav">
+          <a href="#">Privatliv</a>
+          <a href="#">Cookiepolitik</a>
+          <a href="#">Sitemap</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>
