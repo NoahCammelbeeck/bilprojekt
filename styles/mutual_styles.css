@@ -5,20 +5,28 @@
 
 @font-face {
   font-family: "vroomvroom";
-  src: url(../fonts/helveticaneue-2-cufonfonts/HelveticaNeueUltraLightv130.ttf
+  src: url(../fonts/helveticaneue-2-cufonfonts/HelveticaNeueUltraLightv130.ttf);
 }
 
 body {
   background-color: rgb(192, 192, 192);
 }
 
+header{
+background-color: rgb(149, 143, 143);
+}
+
 h1 {
-  font-family: "vroomvroom";
+  font-family: "vroom";
   font-size: 48px;
 }
+
 h2 {
+    font-family: "vroomvroom";
+  font-size: 36px;
 }
+
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "vroom";
 }
